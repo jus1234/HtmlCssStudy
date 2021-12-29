@@ -14,7 +14,7 @@
     <header>
         <h1>HTML & CSS Study</h1>
         <div class="linkSection">
-            Usigi <a href="https://github.com/jus1234">Github</a> / <a href="https://velog.io/@jus1234">Blog</a>
+            Usigi <a href="https://github.com/jus1234"><button>Github</button></a> / <a href="https://velog.io/@jus1234"><button>Blog</button></a>
         </div>
     </header>
     <div class="container">
@@ -39,31 +39,37 @@
                 </ul>
             </nav>
             <article>
-                <div class="posting">
-                    <p class="posting-title">
-                        HTML Tags
-                    </p>
-                    <div class="thumbNail">
-                        <img src="thumbNail.png">
-                    </div>
-                    <p class="posting-summary">
-                        의미있는(Semantic) 태그를 적절하게 사용한다면, 
-                        다른 사람이 HTML 문서를 접할 때 쉽게 이해 가능!
-                    </p>
-                </div>
-                <div class="posting">
-                    <p class="posting-title">
-                        CSS
-                    </p>
-                    <div class="thumbNail">
-                        <img src="thumbNail2.png">
-                    </div>
-                    <p class="posting-summary">
-                        CSS는 선택자(Selector), 선언블록(Declaration Block)으로
-                        이루져 있다. 선언 블럭안에는 속성명(Property) : 속성값(Value)로
-                        구성된 선언(Declaration)이 있는데 선언들은 선언구분자(;)로 구분된다.
-                    </p>
-                </div>
+                <ul class="postlist">
+                    <li class="pl-element">
+                        <div class="posting">
+                            <p class="posting-title">
+                                HTML Tags
+                            </p>
+                            <div class="thumbNail">
+                                <img src="thumbNail.png">
+                            </div>
+                            <p class="posting-summary">
+                                의미있는(Semantic) 태그를 적절하게 사용한다면, 
+                                다른 사람이 HTML 문서를 접할 때 쉽게 이해 가능!
+                            </p>
+                        </div>
+                    </li>
+                    <li class="pl-element">
+                        <div class="posting">
+                            <p class="posting-title">
+                                CSS
+                            </p>
+                            <div class="thumbNail">
+                                <img src="thumbNail2.png">
+                            </div>
+                            <p class="posting-summary">
+                                CSS는 선택자(Selector), 선언블록(Declaration Block)으로
+                                이루져 있다. 선언 블럭안에는 속성명(Property) : 속성값(Value)로
+                                구성된 선언(Declaration)이 있는데 선언들은 선언구분자(;)로 구분된다.
+                            </p>
+                        </div>
+                    </li>
+                </ul>
             </article>
             <section>
                 Section Part
