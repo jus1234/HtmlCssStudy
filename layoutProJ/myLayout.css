@@ -33,9 +33,17 @@ aside {
 .posting .posting-title{
     font-size: 24px;
 }
+.posting-title ~ .posting-summary {
+    overflow: auto;
+    color: whitesmoke;
+}
 .menulist{
     display: flex;
 }
 .postlist {
     display: flex;
+    flex-wrap: wrap;
+}
+.menulist + .linkSection {
+    color: slategray;
 }
