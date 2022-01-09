@@ -13,6 +13,7 @@ header, footer {
 }
 nav {
     background: #eee;
+    justify-content: space-evenly;
 }
 main {
     background: #f9f9f9;
@@ -51,7 +52,9 @@ aside {
     color: black;
 }
 .menulist{
+    width: 80%;
     display: flex;
+    justify-content: space-between;
 }
 .postlist {
     display: flex;
@@ -59,6 +62,7 @@ aside {
 }
 .menulist + .linkSection {
     color: slategray;
+    align-items: center;
 }
 ul {
     list-style: none;
